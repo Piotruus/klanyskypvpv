@@ -1,0 +1,22 @@
+name: FirestarKlany
+prefix: FIRESTAR KLANY
+version: ${project.version}
+main: pl.firestar.klany.FirestarKlany
+api-version: '1.21'
+authors: [FIRESTAR.PL]
+description: System klanow i rankingow dla serwera FIRESTAR.PL
+depend: [Vault]
+softdepend: [Essentials, PlaceholderAPI]
+commands:
+  klan:
+    description: Komenda klanow
+    aliases: [klany, clan]
+    usage: /klan
+  ranking:
+    description: Top graczy
+    aliases: [topgraczy, rank]
+    usage: /ranking
+permissions:
+  firestarklany.admin:
+    description: Dostep do /klan reload
+    default: op

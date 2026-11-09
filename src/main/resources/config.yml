@@ -1,0 +1,38 @@
+# FIRESTAR KLANY - konfiguracja
+naglowek: "&4&lFIRE&6&lSTAR&e&l.PL"
+prefix: "&6&lKLANY &8» &7"
+
+klan:
+  min-tag: 4
+  max-tag: 7
+  max-czlonkow: 20
+  koszt-zalozenia: 0        # 0 = darmowe, w Vault
+  zablokowane-tagi: [ADMIN, MOD, OWNER, HELPER, STAFF]
+  zaproszenie-wygasa-sekundy: 60
+  max-logow: 200
+
+rekrutacja:
+  min-cena: 0
+  max-cena: 100000
+
+sojusz:
+  max-sojusznikow: 3
+  zaproszenie-wygasa-sekundy: 120
+
+ranking:
+  punkty-startowe: 1000
+  k: 32                      # 32 = przy rownych punktach zabojstwo daje ok. 16 pkt
+  min-zysk: 1
+  max-zysk: 32
+  cooldown-ta-sama-ofiara-sekundy: 300   # zabijanie tej samej osoby w kolko nie daje punktow
+  blokuj-to-samo-ip: true
+  broadcast-zabicia: true    # wiadomosc o zabojstwie na czacie (zastepuje domyslna)
+  top-graczy: 10
+  top-klanow: 10
+
+nametag:
+  wlaczone: true
+  pokaz-tag: true            # [TAG] przed nickiem
+  kolor-sojusznik: GREEN     # ten sam klan (i Ty sam)
+  kolor-sojusz: AQUA         # klan w sojuszu
+  kolor-wrog: RED            # reszta graczy
